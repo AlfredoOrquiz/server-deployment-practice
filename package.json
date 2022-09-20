@@ -5,10 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose --coverage",
-    "start": "node server.js"
+    "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfredoOrquiz/server-deployment-practice.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlfredoOrquiz/server-deployment-practice/issues"
+  },
+  "homepage": "https://github.com/AlfredoOrquiz/server-deployment-practice#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.2",
